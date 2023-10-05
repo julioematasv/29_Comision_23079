@@ -10,7 +10,7 @@
         <title>Clase No 2 | HTML - Listas - Elaces - Tablas</title>
         <meta name="description" content="HTML">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="estilosTablas.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -41,7 +41,7 @@
                 
                 <h2>Tabla con Nombres y Apellidos</h2>
                 <table border="1px solid #2b2b2b" cellpadding="5px" cellspacing="1">
-                    <tr bgcolor="#BDBDBD">
+                    <tr bgcolor="#BDBDBD" class="nombres">
                         <th>Nombre</th>
                         <th>Apellido Paterno</th>
                     </tr>
@@ -61,11 +61,16 @@
             </section>
 
             <!-- Tabla Sistema Solar -->
-            <section>
+            <section class="planetas">
                 
-                <h2>Tabla con Nombres y Apellidos</h2>
+                <h2>Tabla del sistema solar</h2>
+                <div class="banner">
+                    <div class="bg">
+                        
+                    </div>
+                </div>
                 <table border="1px solid #2b2b2b" cellpadding="5px" cellspacing="1">
-                    <tr bgcolor="#BDBDBD">
+                    <tr bgcolor="#BDBDBD" >
                         <th>Planeta</th>
                         <th>Símb</th>
                         <th>Diámetro ecuatorial</th>
@@ -73,7 +78,7 @@
                         <th>Masa</th>
                         <th>Radio orbital</th>
                         <th>Período orbital (años)</th>
-                        <th>Períodp rotación (días)</th>
+                        <th>Perído rotación (días)</th>
                         <th>Inclinación (º)</th>
                         <th>Satelites</th>
                         <th>Composición atmósfera</th>
@@ -92,6 +97,104 @@
                         <td>0</td>
                         <td>Trazas de hidrógeno y helio</td>
                         <td><img src="../img/solar/1_Mercurio.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Venus</td>
+                        <td><img src="../img/simbolos/Venus_symbol.svg.png" alt=""></td>
+                        <td>0.95</td>
+                        <td>12100</td>
+                        <td>0.82</td>
+                        <td>0.72</td>
+                        <td>0.615</td>
+                        <td>243</td>
+                        <td>3.4º</td>
+                        <td>0</td>
+                        <td>96 % CO2, 3 % nitrógeno,0.1 % agua</td>
+                        <td><img src="../img/solar/2_venus.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Tierra</td>
+                        <td><img src="../img/simbolos/Earth_symbol.svg.png" alt=""></td>
+                        <td>1.00</td>
+                        <td>12756</td>
+                        <td>1.00</td>
+                        <td>1.00</td>
+                        <td>1.00</td>
+                        <td>243</td>
+                        <td>0º</td>
+                        <td>1</td>
+                        <td>78 % nitrógeno, 21 % oxígeno, 1 % argón</td>
+                        <td><img src="../img/solar/3_Tierra.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Marte</td>
+                        <td><img src="../img/simbolos/Mars_symbol.svg.png" alt=""></td>
+                        <td>0.53</td>
+                        <td>6787</td>
+                        <td>0.11</td>
+                        <td>1.52</td>
+                        <td>1.88</td>
+                        <td>1.03</td>
+                        <td>1.9º</td>
+                        <td>2</td>
+                        <td>95 % CO2, 1.6 % argón, 3 % nitrógeno</td>
+                        <td><img src="../img/solar/4_Marte.jpeg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Jupiter</td>
+                        <td><img src="../img/simbolos/Jupiter_symbol.svg.png" alt=""></td>
+                        <td>11.2</td>
+                        <td>142984</td>
+                        <td>318</td>
+                        <td>5.20</td>
+                        <td>11.86</td>
+                        <td>0.414</td>
+                        <td>1.3º</td>
+                        <td>79</td>
+                        <td>90 % hidrógeno, 10 % helio, trazas de metano</td>
+                        <td><img src="../img/solar/5_Jupiter.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Saturno</td>
+                        <td><img src="../img/simbolos/Saturn_symbol.svg.png" alt=""></td>
+                        <td>9.41</td>
+                        <td>120536</td>
+                        <td>95</td>
+                        <td>9.54</td>
+                        <td>29.46</td>
+                        <td>0.426</td>
+                        <td>2.5º</td>
+                        <td>82</td>
+                        <td>96 % hidrógeno, 3 % helio, 0.5 % metano</td>
+                        <td><img src="../img/solar/6_Saturno.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Urano</td>
+                        <td><img src="../img/simbolos/Uranus_monogram.svg.png" alt=""></td>
+                        <td>3.98</td>
+                        <td>51108</td>
+                        <td>14.6</td>
+                        <td>19.19</td>
+                        <td>84.01</td>
+                        <td>0.718</td>
+                        <td>0.8º</td>
+                        <td>27</td>
+                        <td>84 % hidrógeno, 14 % helio, 2 % metano</td>
+                        <td><img src="../img/solar/7_Urano.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Neptuno</td>
+                        <td><img src="../img/simbolos/Neptune_symbol.svg.png alt=""></td>
+                        <td>3.81</td>
+                        <td>49538</td>
+                        <td>17.2</td>
+                        <td>30.06</td>
+                        <td>164.79</td>
+                        <td>0.6745</td>
+                        <td>1.8º</td>
+                        <td>14</td>
+                        <td>74 % hidrógeno, 25 % helio, 1 % metano</td>
+                        <td><img src="../img/solar/8_Neptuno.jpg" alt=""></td>
                     </tr>
                 </table>
             </section>
