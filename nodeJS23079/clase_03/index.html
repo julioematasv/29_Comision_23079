@@ -13,5 +13,32 @@
 
     <!-- Etiqueta de imagen -->
     <img src="../img/paisajes/montaña.jpg" alt="PaisajeMontaña">
+
+    <h3>Etiqueta HTML picture</h3>
+    <p>La etiqueta ofrece a los desarrolladores web más flexibilidad a la hora de especificar recursos de imagen.</p>
+    <p>El uso más común del elemento será para la dirección de arte en Diseños responsivos. En lugar de tener una imagen que se escala hacia arriba o hacia abajo en el ancho de la ventana gráfica, se pueden diseñar varias imágenes para llenar más bien el Vista del navegador.</p>
+    <p>Cambie el tamaño de la ventana del navegador para cargar diferentes imágenes.</p>
+    <br>
+    <picture>
+    <source media="(min-width:650px)" srcset="../img/paisajes/img_pink_flowers.jpg">
+    <source media="(min-width:465px)" srcset="../img/paisajes/img_white_flower.jpg">
+    <img src="../img/paisajes/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <br><br>
+    <h3>Etiqueta HTML figure</h3>
+    <p>Utilice un elemento <\figure> para marcar una foto en un documento y un <\figcaption> para definir un pie de foto para la foto:</p>
+    <br>
+    <figure>
+        <img src="../img/paisajes/pic_trulli.jpg" alt="Trulli" style="width:60%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <br><br>
+    <h3>Etiqueta HTML <\video></h3>
+    <p>La etiqueta se utiliza para incrustar vídeo contenido de un documento, como un clip de película u otras secuencias de vídeo.</p>
+    <br>
+    <video controls autoplay>
+        <source src="../video/Galaxia.mp4" type="video/mp4">
+        El navegador no soporta el video.
+    </video>
 </body>
 </html>
