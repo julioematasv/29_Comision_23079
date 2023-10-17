@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.secciones {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: darkolivegreen;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+footer ul li i {
+    font-size: 1.2rem;
+    color: blue;
+    padding: 0.5rem;
+}
