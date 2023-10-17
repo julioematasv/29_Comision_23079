@@ -7,11 +7,15 @@
     color: darkolivegreen;
 }
 
-footer ul li{
+ul li{
     display: inline-block;
     margin: 0 10px;
 }
-footer ul li i {
+ul li a {
+    text-decoration: none;
+}
+
+ul li i {
     font-size: 1.2rem;
     color: blue;
     padding: 0.5rem;
