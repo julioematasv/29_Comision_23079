@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: blue;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: mediumpurple;
+}
+
+section {
+    width: 98%;
+    margin: 0 auto;
+    border: 2px solid coral;
+}
+
+.cajas {
+    width: 96%;
+    margin: 0 auto;
+    background-color: #F2F3D3;
+    padding: 1rem;
+}
+
+.caja{
+    width: 7rem;
+    height: 4rem;
+    margin: 1.2rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+    display: inline-block;
+}
+.uno {
+    border: 5px solid red;
+}
+.dos {
+    border: 5px dotted green;
+}
+.tres {
+    border: 5px dashed grey;
+}
+.cuatro {
+    border: 5px double greenyellow;
+}
+.cinco {
+    border: 5px groove rebeccapurple;
+}
+.seis {
+    border: 5px ridge maroon;
+}
+.siete {
+    border: 5px inset navy;
+}
+.ocho {
+    border: 5px outset peru;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: #F2F3D3;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+}
