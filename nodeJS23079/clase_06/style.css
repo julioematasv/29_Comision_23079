@@ -89,6 +89,46 @@ section {
     overflow: scroll;
 }
 
+.posicion {
+    position: absolute;
+    left: 1%;
+    margin-top: 1rem;
+}
+.caja-3{
+    background-color: coral;
+    border: 2px solid black;
+    width: 10rem;
+    height: 5rem;
+    margin: 1.2rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+    display: block;
+}
+
+.uno-3{
+    position: relative;
+    top: 3rem;
+    right: 2rem;
+}
+.dos-3{
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+.tres-3{
+    position: fixed;
+    top: 50rem;
+    left: 20rem;
+}
+.cuatro-3{
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
 footer {
     width: 100%;
     background-color: black;
