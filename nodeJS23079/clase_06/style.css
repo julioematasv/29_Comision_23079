@@ -90,7 +90,7 @@ section {
 }
 
 .posicion {
-    position: absolute;
+    position: relative;
     left: 1%;
     margin-top: 1rem;
 }
@@ -117,7 +117,7 @@ section {
 }
 .tres-3{
     position: fixed;
-    top: 50rem;
+    top: 30rem;
     left: 20rem;
 }
 .cuatro-3{
@@ -125,15 +125,47 @@ section {
     top: 0;
 }
 
+.parent {
+    display: inline-block;
+    border: 3px dotted black;
+}
+.box {
+    width: 98%;
+    margin: 1rem auto;
+    background-color: chocolate;
+    padding: 2rem;    
+}
+.boxes {
+    display: inline-block;
+    background-color: purple;
+    width: 10rem;
+    height: 10rem;
+    
+}
+.boxes p {
+    color: azure;
+    text-align: center;
+    line-height: 10rem;
+}
+.two{
+    background-color: green;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
 
-
+.twoAbsolute{
+    position: absolute;
+    background-color: olivedrab;
+    top: 100rem;
+    left: 65rem;
+}
 
 
 footer {
     width: 100%;
     background-color: black;
     color: #F2F3D3;
+    margin-top: 1rem;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
 }
