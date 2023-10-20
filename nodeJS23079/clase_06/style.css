@@ -133,7 +133,7 @@ section {
     width: 98%;
     margin: 1rem auto;
     background-color: chocolate;
-    padding: 2rem;    
+    padding: 2rem;
 }
 .boxes {
     display: inline-block;
@@ -161,6 +161,61 @@ section {
     left: 65rem;
 }
 
+
+.parent-flex {
+    background-color: purple;
+    display: inline-block;
+    border: 3px dotted black;
+}
+.box-flex {
+    width: 98%;
+    height: 30rem;
+    margin: 1rem auto;
+    background-color: chocolate;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.caja-flex{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid gray;
+    margin: 0.5rem;
+}
+.caja-flex p {
+    color: azure;
+    text-align: center;
+    line-height: 8rem;
+}
+#uno {
+    background-color: #CD5C5C;
+    align-self: flex-end;
+}
+#dos {
+    background-color: #8B0000;
+}
+#tres {
+    background-color: #FF69B4;
+    align-self: flex-end;
+}
+#cuatro {
+    background-color: #FF4500;
+}
+#cinco {
+    background-color: #4169E1;
+}
+#seis {
+    background-color: #6A5ACD;
+    align-self: center;
+}
+#siete {
+    background-color: #006400;
+}
+#ocho {
+    background-color: #008080;
+    align-self: center;
+}
 
 footer {
     width: 100%;
