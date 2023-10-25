@@ -4,12 +4,27 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+}
+section, nav{
+    width: 96%;
+    margin: 0 auto;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
 ul li a {
     text-decoration: none;
+    color: aliceblue;
 }
 a:hover{
     color: darkorange;
@@ -18,3 +33,36 @@ a:link{
     color: darkgreen;
 }
 
+/* Etiqueta elemento padre o madre - llamo a hijos/as (p) y doy una condicion al primer hijo (first) y al ultimo (last)  */
+
+div p{
+    margin: 1rem 0;
+}
+div p:last-child{
+    color: blue;
+    background-color:pink;
+}
+
+
+div p:first-child{
+    color:aliceblue;
+    background-color: darkslateblue;
+}
+
+#medio{
+    color:burlywood;
+    background-color:aquamarine;
+}
+
+p#uno::after{
+    content:"🧰";
+    font-size: 1.5rem;
+}
+p#dos::after{
+    content:"🎩";
+    font-size: 1.5rem;
+}
+p#tres::after{
+    content:"💾";
+    font-size: 1.5rem;
+}
