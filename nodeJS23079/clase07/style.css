@@ -8,6 +8,7 @@ nav {
     background-color: #333;
     color: aliceblue;
     text-align: center;
+    height: 55px;
 }
 section, nav{
     width: 96%;
@@ -21,35 +22,91 @@ body {
 /* Menú horizontal con transiciones */
 
 /* Formato general de cada item */
-ul li {
+.menu {
     display: inline-block;
-    margin: 0.5rem;
+    height: 50px;
+    width: 120px;
+    margin: 0;
+}
+ul li {
+    display: inline;
 }
 ul li a {
     text-decoration: none;
     color: aliceblue;
 }
+
 /* Bordes superiores */
 
 .menu.servicios {
-    border-top: #ffc000 0.3em solid;
+    border-top: #ffc000 0.5em solid;
   }
   
   .menu.recursos {
-    border-top: #b81800 0.3em solid;
+    border-top: #b81800 0.5em solid;
   }
   
   .menu.proyectos {
-    border-top: #00a53c 0.3em solid;
+    border-top: #00a53c 0.5em solid;
   }
   
   .menu.contacto {
-    border-top: #9600b4 0.3em solid;
+    border-top: #9600b4 0.5em solid;
   }
 
+/* Atributos y transición */
+.menu span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
 
-
+.menu:after, .menu > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding-top: 1rem;
+  }
   
+  .menu:after {
+    content: attr(data-title);
+    width: 100%;
+    background: #333;
+    color: #fff; 
+  }
+  
+  .menu > span > span {
+    width: 120px;
+    color: #fff;
+    height: 48px;
+  }
+  
+  .menu.servicios > span > span {
+    background: #ffc000;
+  }
+  
+  .menu.proyectos > span > span {
+    background: #00a53c;
+  }
+  
+  .menu.recursos > span > span {
+    background: #b81800;
+  }
+  
+  .menu.contacto > span > span {
+      background: #9600b4;
+  }
+
+/* Lo que pasa con hover */
+
+.menu:hover > span {
+    height: 100%; 
+}
+
 
 /* Etiqueta elemento padre o madre - llamo a hijos/as (p) y doy una condicion al primer hijo (first) y al ultimo (last)  */
 
