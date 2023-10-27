@@ -40,19 +40,19 @@ ul li a {
 
 .menu.servicios {
     border-top: #ffc000 0.5em solid;
-  }
-  
-  .menu.recursos {
+}
+
+.menu.recursos {
     border-top: #b81800 0.5em solid;
-  }
-  
-  .menu.proyectos {
+}
+
+.menu.proyectos {
     border-top: #00a53c 0.5em solid;
-  }
-  
-  .menu.contacto {
+}
+
+.menu.contacto {
     border-top: #9600b4 0.5em solid;
-  }
+}
 
 /* Atributos y transición */
 .menu span {
@@ -70,36 +70,36 @@ ul li a {
     text-align: center;
     border-radius: 0em;
     padding-top: 1rem;
-  }
-  
-  .menu:after {
+}
+
+.menu:after {
     content: attr(data-title);
     width: 100%;
     background: #333;
     color: #fff; 
-  }
-  
-  .menu > span > span {
+}
+
+.menu > span > span {
     width: 120px;
     color: #fff;
     height: 48px;
-  }
-  
-  .menu.servicios > span > span {
+}
+
+.menu.servicios > span > span {
     background: #ffc000;
-  }
-  
-  .menu.proyectos > span > span {
+}
+
+.menu.proyectos > span > span {
     background: #00a53c;
-  }
-  
-  .menu.recursos > span > span {
+}
+
+.menu.recursos > span > span {
     background: #b81800;
-  }
-  
-  .menu.contacto > span > span {
-      background: #9600b4;
-  }
+}
+
+.menu.contacto > span > span {
+    background: #9600b4;
+}
 
 /* Lo que pasa con hover */
 
@@ -146,21 +146,21 @@ p#tres::after{
 
 .container{
     position: relative;
-  }
-  .caja{
-  width: 180px;
-  height: 180px;
-  background-color: #30B037;
-  color: #FFF;
-  text-align: center;
-  line-height: 180px;
-  margin: 15px;
-  float: left;
-  font-size: 18px;
-  font-family: Arial;
-  }
+}
+.caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+}
 
-  .caja1{
+.caja1{
     background-color: #2bc0be;
     -webkit-transition: background-color 3s linear;
     transition: background-color 1s linear;
