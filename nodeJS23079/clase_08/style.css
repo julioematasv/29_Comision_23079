@@ -48,3 +48,44 @@ section {
     flex-wrap: wrap;
 }
 
+.dos, .tres {
+    flex-grow: 2;
+}
+
+.abuelo-contenedor{
+    border: 2px dotted blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.papa-contenedor-fijo{
+    border: 2px solid grey;
+    display: block;
+    gap: 0.25rem;
+    width: 40%;
+}
+.hijo-fijo, .hijo-fluido{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item-hijo, .flex-item-hijoFluido{
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    color: ivory;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    line-height: 2rem;
+}
+.mini-caja-uno{
+    display: flex;
+    align-items: center;
+}
+.papa-contenedor-fluid{
+    border: 2px dashed green;
+    display: block;
+    gap: 0.25rem;
+    width: 60%;
+}
