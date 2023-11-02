@@ -58,21 +58,28 @@ section {
     display: flex;
     justify-content: space-evenly;
 }
-.papa-contenedor-fijo{
-    border: 2px solid grey;
+.papa-contenedor-fijo, .papa-contenedor-fluid{
+    border: 2px dashed grey;
     display: block;
     gap: 0.25rem;
     width: 40%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.papa-contenedor-fluid{
+    border: 2px dashed green;
+    width: 60%;
 }
 .hijo-fijo, .hijo-fluido{
+    width: 100%;
     display: flex;
     gap: 0.5rem;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .flex-item-hijo, .flex-item-hijoFluido{
-    width: 100px;
-    height: 50px;
+    /* min-width: 100px;
+    height: 50px; */
     background-color: coral;
     color: ivory;
     margin: 0.5rem;
@@ -80,12 +87,26 @@ section {
     line-height: 2rem;
 }
 .mini-caja-uno{
+    background-color: chocolate;
     display: flex;
     align-items: center;
+    margin: 0.5rem 0;
+    row-gap: 0.5rem;
+    border: 1px solid black;
 }
-.papa-contenedor-fluid{
-    border: 2px dashed green;
-    display: block;
-    gap: 0.25rem;
-    width: 60%;
+.mini-caja-dos{
+    justify-content: flex-end;
 }
+.mini-caja-tres{
+    justify-content: center;
+}
+.mini-caja-cuatro{
+    justify-content: space-between;
+}
+.mini-caja-cinco{
+    justify-content: space-around;
+}
+.mini-caja-seis{
+    justify-content: space-evenly;
+}
+
