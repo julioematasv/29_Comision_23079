@@ -94,6 +94,9 @@ section {
     row-gap: 0.5rem;
     border: 1px solid black;
 }
+.mini-caja-cero{
+    align-items: stretch;
+}
 .mini-caja-dos{
     justify-content: flex-end;
 }
@@ -110,3 +113,33 @@ section {
     justify-content: space-evenly;
 }
 
+.papa-contenedor-aling-items{
+    border: 1px dashed red;
+    margin: 0.5rem 0;
+    width: 90%;
+}
+.mini-caja-ai{
+    width: 100%;
+}
+.ai-box{
+    border: 1px solid black;
+    margin: 0.5rem auto;
+    width: 90%;
+    height: 200px;
+    display: flex;
+}
+.ai-caja-uno{
+    align-items: stretch;
+}
+.ai-caja-dos{
+    align-items: flex-start;
+}
+.ai-caja-tres{
+    align-items: flex-end;
+}
+.ai-caja-cuatro{
+    align-items: center;
+}
+.ai-caja-cinco{
+    align-items: baseline;
+}
