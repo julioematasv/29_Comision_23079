@@ -55,3 +55,51 @@ picture img{
     grid-column: 4 / 5;
     grid-row: 4 / 5;
 }
+
+/* Inicio del Tercer grid Grid Por Áreas */
+nav{
+    grid-area: navbar;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+.grid-areas{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'main main main aside'
+    'footer footer footer footer';
+}
+
+.navbar{
+    background-color: plum;
+}
+.principal{
+    background-color: cadetblue;
+    justify-self: flex-start;
+    width: 75%;
+}
+.lateral{
+    background-color: lightcoral;
+    justify-self: end;
+    width: 75%;
+}
+.pie{
+    background-color: green;
+}
+
+.espacio{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
