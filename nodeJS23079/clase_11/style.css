@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Inicio de clases para los estilos */
+.envoltorio {
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* estilos del contenedor general de todo */
+.contenedor {
+    background-color: #ecf6ce;
+    width: 96vw;
+    height: 96vh;
+    border: 1px solid #585858;
+    margin: auto;
+}
+
+/* estilos de la cabecera */
+.cabecera {
+    background-color: #2e9afe;
+    width: 100%;
+    height: 18rem;
+}
+
+/* estilos de la barra de navegación */
+.navbar {
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 4rem;
+    color: #e6e6e6;
+}
+
+/* estilos de el envoltorio de contenido principal */
+.contenido-principal {
+    background-color: #ff8000;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* estilos de la seccion general de contenido  */
+.seccion-general {
+    background-color: #ff4000;
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* estilos de el artículo */
+.articulo-general {
+    background-color: #fe2e64;
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* estilos de las tarjetas */
+.fila-tarjetas {
+    display: flex;
+}
+.tarjeta {
+    background-color: #a4a4a4;
+    width: 32%;
+    margin: 0.5rem auto;
+}
+.cuerpo-tjta {
+    height: 20rem;
+}
+.cabeza-tjta {
+    background-color: #04B4AE;
+    height: 4rem;
+}
+.contenido-tjta {
+    background-color: #fff;
+    height: 12rem;
+}
+.pie-tjta {
+    background-color: #424242;
+    height: 4rem;
+    color: #e6e6e6;
+}
+
+/* estilos de el footer */
+.pie {
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 3rem;
+    color: #e6e6e6;
+}
