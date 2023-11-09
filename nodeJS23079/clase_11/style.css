@@ -59,10 +59,12 @@
 /* estilos de las tarjetas */
 .fila-tarjetas {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .tarjeta {
     background-color: #a4a4a4;
-    width: 32%;
+    width: 100%;
     margin: 0.5rem auto;
 }
 .cuerpo-tjta {
@@ -88,4 +90,21 @@
     width: 100%;
     height: 3rem;
     color: #e6e6e6;
+}
+
+
+/* ================================================================= */
+        /* === Medias Querys === */
+
+@media screen and (min-width: 768px) {
+    .tarjeta{
+        width: 49%;
+        margin-left: 0 1px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tarjeta{
+        width: 33%;
+    }
 }
